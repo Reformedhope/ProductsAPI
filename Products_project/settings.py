@@ -68,6 +68,12 @@ TEMPLATES = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO STRING': False
+}
+
+
+
 WSGI_APPLICATION = 'Products_project.wsgi.application'
 
 
